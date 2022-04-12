@@ -12,7 +12,7 @@
 
 1. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers. You must solve this without using any built-in array methods.  
 ```
-averageInArray([2,4,5,7,8]) // returns 19.8
+averageInArray([2,4,5,7,8]) // returns 5.2
 averageInArray([2,2,5,10]) // returns 4.75
 averageInArray([2,2,2,2,2]) //returns 2
 ```
