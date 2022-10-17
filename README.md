@@ -14,7 +14,7 @@
 ```
 sumInArray([2,4,5,7,8]) // returns 26
 sumInArray([2,2,5,10]) // returns 19
-sumInArray([2,2,2,2,2]) //returns 20
+sumInArray([2,2,2,2,2]) //returns 10
 ```
 
 2. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers. You must solve this without using any built-in array methods by iterating through the array.  
