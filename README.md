@@ -1,25 +1,35 @@
-# Code Challenge: Looping through Arrays
+# **Code Challenge: `findMaximum`**
 
-## Instructions
+**Instructions**
 
-1. Clone down this assignment to your `code-challenges' directory.  
-2. Code your solution using JavaScript in `index.js`. 
-3. **Be sure to run and test your code throughly!**
-4. By the end of Code Challenge, **commit and push your changes up to Github**.
+1. Clone down this assignment to your `tip-challenges` directory in your environment.
+2. Code your solution using JavaScript in `index.js`.
+3. **Be sure to run and test your code thoroughly.**
+4. By the end of class, **commit and push your changes up to Github**.
 5. Using the browser, verify that your solution is in your remote repo on Github.
 
-## Code Problems
+---
 
-1. Declare a function named `sumInArray` that will calculate the sum of all the elements in an array of numbers. You must solve this without using any built-in array methods and iterating through the array.  
+## example.js
+
+The function `getAverage` takes an array of numbers as input.
+
+- It uses a **for loop** to add up all the numbers in the array.
+- Then it divides the total by the array’s length to find the **average**.
+- Finally, it returns that average value.
+
 ```
-sumInArray([2,4,5,7,8]) // returns 26
-sumInArray([2,2,5,10]) // returns 19
-sumInArray([2,2,2,2,2]) //returns 10
+getAverage([2, 4, 6, 8]); // Output: 5
+getAverage([1, 2, 3]);    // Output: 2
 ```
 
-2. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers. You must solve this without using any built-in array methods and iterating through the array.  
+---
+
+## index.js
+
+Write a `findMax` function takes an **array of numbers** as input and returns the **largest number** in that array.
+
 ```
-averageInArray([2,4,5,7,8]) // returns 5.2
-averageInArray([2,2,5,10]) // returns 4.75
-averageInArray([2,2,2,2,2]) //returns 2
+findMax([3, 7, 2, 9, 5]); // ➜ 9
+findMax([-1, -5, -3]);    // ➜ -1
 ```
